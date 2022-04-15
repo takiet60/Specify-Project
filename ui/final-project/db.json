@@ -1,0 +1,9 @@
+{
+  "articles": [{"id: 1, "name": "Khánh Nguyễn", "status": "Chưa cho mượn",
+	 "description": "Tôi có cuốn sách muốn cho mượn"),
+		{"id: 2, "name": "Hương Võ", "status": "Chưa cho mượn",
+	 "description": "Em có cái thân muốn bán"),
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+}
