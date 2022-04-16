@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 1 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    .card {
+        border: 1px solid black;
+        width: 16em;
+        padding: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+    }
+}

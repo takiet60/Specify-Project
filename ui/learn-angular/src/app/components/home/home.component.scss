@@ -1,0 +1,18 @@
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+textarea {
+  width: 1000px;
+  height: 200px;
+}
+
+article[role="article"] {
+  border: 1px solid black;
+
+}
+
+form {
+  margin: 2em auto;
+}

@@ -1,0 +1,7 @@
+<div class="container" *ngIf="listUsers">
+    <div  *ngFor="let user of listUsers">
+        <div class="card">
+            <a routerLink="/user/{{user.login}}">{{ user.login }}</a>
+        </div>
+    </div>
+</div>
